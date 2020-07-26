@@ -28,12 +28,10 @@ hello
   
 ***mou***
 | tables| hello|
-|--------|:------|
+|--------|------|
 |col 2| hrllo|
 |col 3| hrrlo|
-|col 4|asd|
-*** 
-*** 
+|col 4|asd| 
 asd
 asd
 
@@ -76,5 +74,7 @@ $$\begin{aligned}
 asd&=asdasdasd\\
 asd&=sd    
 \end{aligned}$$
-
+$\begin{aligned}
+    
+\end{aligned}$
 $a\beta$ $\frac{asd}{asd}\to\triangle$
