@@ -1,0 +1,5 @@
+﻿  Node.cpp
+C:\Users\gy\Desktop\C\Node\Node\Node.cpp(13,20): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
+  正在生成代码...
+  Node.vcxproj -> C:\Users\gy\Desktop\C\Node\Debug\Node.exe
