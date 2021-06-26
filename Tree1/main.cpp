@@ -20,5 +20,4 @@ int main() {
    cout << IsPerfect(root3)<<endl;
    Swap(root3);
    LevelOrderVisit(root3);
-    system("pause");
 }

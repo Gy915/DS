@@ -3,9 +3,9 @@ project(DS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(tree)
+include_directories(Tree1)
 
-add_executable(DS
-        tree/main.cpp
-        tree/tree.cpp
-        tree/tree.h)
+add_executable(tree
+        Tree1/main.cpp
+        Tree1/tree.cpp
+        Tree1/tree.h)

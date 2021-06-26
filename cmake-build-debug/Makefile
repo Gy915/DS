@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/CLionProjects/DS
+CMAKE_SOURCE_DIR = /Users/gy/CLionProjects/DS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/CLionProjects/DS/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gy/CLionProjects/DS/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/CLionProjects/DS/cmake-build-debug/CMakeFiles /Users/bytedance/CLionProjects/DS/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gy/CLionProjects/DS/cmake-build-debug/CMakeFiles /Users/gy/CLionProjects/DS/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/CLionProjects/DS/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gy/CLionProjects/DS/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,71 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DS
+# Target rules for targets named tree
 
 # Build rule for target.
-DS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DS
-.PHONY : DS
+tree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree
+.PHONY : tree
 
 # fast build rule for target.
-DS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/build
-.PHONY : DS/fast
+tree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+.PHONY : tree/fast
 
-tree/main.o: tree/main.cpp.o
+Tree1/main.o: Tree1/main.cpp.o
 
-.PHONY : tree/main.o
-
-# target to build an object file
-tree/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/tree/main.cpp.o
-.PHONY : tree/main.cpp.o
-
-tree/main.i: tree/main.cpp.i
-
-.PHONY : tree/main.i
-
-# target to preprocess a source file
-tree/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/tree/main.cpp.i
-.PHONY : tree/main.cpp.i
-
-tree/main.s: tree/main.cpp.s
-
-.PHONY : tree/main.s
-
-# target to generate assembly for a file
-tree/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/tree/main.cpp.s
-.PHONY : tree/main.cpp.s
-
-tree/tree.o: tree/tree.cpp.o
-
-.PHONY : tree/tree.o
+.PHONY : Tree1/main.o
 
 # target to build an object file
-tree/tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/tree/tree.cpp.o
-.PHONY : tree/tree.cpp.o
+Tree1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/Tree1/main.cpp.o
+.PHONY : Tree1/main.cpp.o
 
-tree/tree.i: tree/tree.cpp.i
+Tree1/main.i: Tree1/main.cpp.i
 
-.PHONY : tree/tree.i
+.PHONY : Tree1/main.i
 
 # target to preprocess a source file
-tree/tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/tree/tree.cpp.i
-.PHONY : tree/tree.cpp.i
+Tree1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/Tree1/main.cpp.i
+.PHONY : Tree1/main.cpp.i
 
-tree/tree.s: tree/tree.cpp.s
+Tree1/main.s: Tree1/main.cpp.s
 
-.PHONY : tree/tree.s
+.PHONY : Tree1/main.s
 
 # target to generate assembly for a file
-tree/tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/tree/tree.cpp.s
-.PHONY : tree/tree.cpp.s
+Tree1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/Tree1/main.cpp.s
+.PHONY : Tree1/main.cpp.s
+
+Tree1/tree.o: Tree1/tree.cpp.o
+
+.PHONY : Tree1/tree.o
+
+# target to build an object file
+Tree1/tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/Tree1/tree.cpp.o
+.PHONY : Tree1/tree.cpp.o
+
+Tree1/tree.i: Tree1/tree.cpp.i
+
+.PHONY : Tree1/tree.i
+
+# target to preprocess a source file
+Tree1/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/Tree1/tree.cpp.i
+.PHONY : Tree1/tree.cpp.i
+
+Tree1/tree.s: Tree1/tree.cpp.s
+
+.PHONY : Tree1/tree.s
+
+# target to generate assembly for a file
+Tree1/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/Tree1/tree.cpp.s
+.PHONY : Tree1/tree.cpp.s
 
 # Help Target
 help:
@@ -204,13 +204,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DS"
-	@echo "... tree/main.o"
-	@echo "... tree/main.i"
-	@echo "... tree/main.s"
-	@echo "... tree/tree.o"
-	@echo "... tree/tree.i"
-	@echo "... tree/tree.s"
+	@echo "... tree"
+	@echo "... Tree1/main.o"
+	@echo "... Tree1/main.i"
+	@echo "... Tree1/main.s"
+	@echo "... Tree1/tree.o"
+	@echo "... Tree1/tree.i"
+	@echo "... Tree1/tree.s"
 .PHONY : help
 
 
