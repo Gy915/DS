@@ -1,6 +1,0 @@
-﻿  main.cpp
-C:\Users\gy\Desktop\C\Graph\Graph\main.cpp(21,20): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\gy\Desktop\C\Graph\Graph\main.cpp(46,20): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\gy\Desktop\C\Graph\Graph\main.cpp(52,20): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\gy\Desktop\C\Graph\Graph\main.cpp(57,15): warning C4305: “=”: 从“double”到“float”截断
-  Graph.vcxproj -> C:\Users\gy\Desktop\C\Graph\Debug\Graph.exe

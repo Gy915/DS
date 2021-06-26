@@ -1,6 +1,0 @@
-﻿  main.cpp
-  sort.cpp
-C:\Users\gy\Desktop\C\Sort\Sort\sort.cpp(224,20): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\gy\Desktop\C\Sort\Sort\sort.cpp(253,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  正在生成代码...
-  Sort.vcxproj -> C:\Users\gy\Desktop\C\Sort\Debug\Sort.exe
