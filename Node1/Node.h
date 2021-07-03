@@ -26,5 +26,3 @@ void SortList(Node*& head);
 
 /*判断单链表回文*/
 bool JudgeHuiWen(Node* head);
-
-void QuickSort(int* array, int low, int high);

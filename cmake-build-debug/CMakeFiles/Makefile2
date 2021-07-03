@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = /Users/gy/CLionProjects/DS/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/tree.dir/all
+all: CMakeFiles/node.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/tree.dir/clean
+clean: CMakeFiles/node.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tree.dir
+# Target rules for target CMakeFiles/node.dir
 
 # All Build rule for target.
-CMakeFiles/tree.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gy/CLionProjects/DS/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target tree"
-.PHONY : CMakeFiles/tree.dir/all
+CMakeFiles/node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gy/CLionProjects/DS/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target node"
+.PHONY : CMakeFiles/node.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tree.dir/rule: cmake_check_build_system
+CMakeFiles/node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gy/CLionProjects/DS/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tree.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gy/CLionProjects/DS/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tree.dir/rule
+.PHONY : CMakeFiles/node.dir/rule
 
 # Convenience name for target.
-tree: CMakeFiles/tree.dir/rule
+node: CMakeFiles/node.dir/rule
 
-.PHONY : tree
+.PHONY : node
 
 # clean rule for target.
-CMakeFiles/tree.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/clean
-.PHONY : CMakeFiles/tree.dir/clean
+CMakeFiles/node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/clean
+.PHONY : CMakeFiles/node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -6,21 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/gy/CLionProjects/DS/Tree1/main.cpp
-tree.h
-/Users/gy/CLionProjects/DS/Tree1/tree.h
-
-/Users/gy/CLionProjects/DS/Tree1/tree.h
-iostream
--
-vector
--
-stack
--
-string
--
-stdlib.h
--
-queue
--
-

@@ -37,14 +37,14 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tree">
-				<Option output="/Users/gy/CLionProjects/DS/cmake-build-debug/tree" prefix_auto="0" extension_auto="0"/>
+			<Target title="node">
+				<Option output="/Users/gy/CLionProjects/DS/cmake-build-debug/node" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/gy/CLionProjects/DS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/gy/CLionProjects/DS/Tree1"/>
+					<Add directory="/Users/gy/CLionProjects/DS/Node1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -52,20 +52,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 node"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tree/fast">
-				<Option output="/Users/gy/CLionProjects/DS/cmake-build-debug/tree" prefix_auto="0" extension_auto="0"/>
+			<Target title="node/fast">
+				<Option output="/Users/gy/CLionProjects/DS/cmake-build-debug/node" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/gy/CLionProjects/DS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/gy/CLionProjects/DS/Tree1"/>
+					<Add directory="/Users/gy/CLionProjects/DS/Node1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -73,21 +73,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 node/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gy/CLionProjects/DS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gy/CLionProjects/DS/Tree1/main.cpp">
-			<Option target="tree"/>
+		<Unit filename="/Users/gy/CLionProjects/DS/Node1/main.cpp">
+			<Option target="node"/>
 		</Unit>
-		<Unit filename="/Users/gy/CLionProjects/DS/Tree1/tree.cpp">
-			<Option target="tree"/>
+		<Unit filename="/Users/gy/CLionProjects/DS/Node1/node.cpp">
+			<Option target="node"/>
 		</Unit>
-		<Unit filename="/Users/gy/CLionProjects/DS/Tree1/tree.h">
-			<Option target="tree"/>
+		<Unit filename="/Users/gy/CLionProjects/DS/Node1/node.h">
+			<Option target="node"/>
 		</Unit>
 		<Unit filename="/Users/gy/CLionProjects/DS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
