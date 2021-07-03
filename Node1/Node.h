@@ -23,6 +23,3 @@ void PrintList(Node* head);
 void Reverse(Node* &head);
 
 void SortList(Node*& head);
-
-/*判断单链表回文*/
-bool JudgeHuiWen(Node* head);

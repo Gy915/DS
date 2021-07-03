@@ -7,4 +7,5 @@ int main(){
     Node* head = CreateList(s);
     PrintList(head);
     Reverse(head);
+    PrintList(head);
 }
