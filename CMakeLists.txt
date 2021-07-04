@@ -3,9 +3,9 @@ project(DS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Node1)
+include_directories(SeqList)
 
-add_executable(node
-        Node1/main.cpp
-        Node1/node.cpp
-        Node1/node.h)
+add_executable(SeqList
+        SeqList/main.cpp
+        SeqList/List.cpp
+        SeqList/List.h)

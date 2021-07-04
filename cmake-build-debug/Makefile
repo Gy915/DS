@@ -130,71 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named node
+# Target rules for targets named SeqList
 
 # Build rule for target.
-node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node
-.PHONY : node
+SeqList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SeqList
+.PHONY : SeqList
 
 # fast build rule for target.
-node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/build
-.PHONY : node/fast
+SeqList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/build
+.PHONY : SeqList/fast
 
-Node1/main.o: Node1/main.cpp.o
+SeqList/List.o: SeqList/List.cpp.o
 
-.PHONY : Node1/main.o
-
-# target to build an object file
-Node1/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/Node1/main.cpp.o
-.PHONY : Node1/main.cpp.o
-
-Node1/main.i: Node1/main.cpp.i
-
-.PHONY : Node1/main.i
-
-# target to preprocess a source file
-Node1/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/Node1/main.cpp.i
-.PHONY : Node1/main.cpp.i
-
-Node1/main.s: Node1/main.cpp.s
-
-.PHONY : Node1/main.s
-
-# target to generate assembly for a file
-Node1/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/Node1/main.cpp.s
-.PHONY : Node1/main.cpp.s
-
-Node1/node.o: Node1/node.cpp.o
-
-.PHONY : Node1/node.o
+.PHONY : SeqList/List.o
 
 # target to build an object file
-Node1/node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/Node1/node.cpp.o
-.PHONY : Node1/node.cpp.o
+SeqList/List.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/SeqList/List.cpp.o
+.PHONY : SeqList/List.cpp.o
 
-Node1/node.i: Node1/node.cpp.i
+SeqList/List.i: SeqList/List.cpp.i
 
-.PHONY : Node1/node.i
+.PHONY : SeqList/List.i
 
 # target to preprocess a source file
-Node1/node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/Node1/node.cpp.i
-.PHONY : Node1/node.cpp.i
+SeqList/List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/SeqList/List.cpp.i
+.PHONY : SeqList/List.cpp.i
 
-Node1/node.s: Node1/node.cpp.s
+SeqList/List.s: SeqList/List.cpp.s
 
-.PHONY : Node1/node.s
+.PHONY : SeqList/List.s
 
 # target to generate assembly for a file
-Node1/node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/Node1/node.cpp.s
-.PHONY : Node1/node.cpp.s
+SeqList/List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/SeqList/List.cpp.s
+.PHONY : SeqList/List.cpp.s
+
+SeqList/main.o: SeqList/main.cpp.o
+
+.PHONY : SeqList/main.o
+
+# target to build an object file
+SeqList/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/SeqList/main.cpp.o
+.PHONY : SeqList/main.cpp.o
+
+SeqList/main.i: SeqList/main.cpp.i
+
+.PHONY : SeqList/main.i
+
+# target to preprocess a source file
+SeqList/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/SeqList/main.cpp.i
+.PHONY : SeqList/main.cpp.i
+
+SeqList/main.s: SeqList/main.cpp.s
+
+.PHONY : SeqList/main.s
+
+# target to generate assembly for a file
+SeqList/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/SeqList/main.cpp.s
+.PHONY : SeqList/main.cpp.s
 
 # Help Target
 help:
@@ -204,13 +204,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... node"
-	@echo "... Node1/main.o"
-	@echo "... Node1/main.i"
-	@echo "... Node1/main.s"
-	@echo "... Node1/node.o"
-	@echo "... Node1/node.i"
-	@echo "... Node1/node.s"
+	@echo "... SeqList"
+	@echo "... SeqList/List.o"
+	@echo "... SeqList/List.i"
+	@echo "... SeqList/List.s"
+	@echo "... SeqList/main.o"
+	@echo "... SeqList/main.i"
+	@echo "... SeqList/main.s"
 .PHONY : help
 
 
